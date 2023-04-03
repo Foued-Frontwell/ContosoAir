@@ -1,4 +1,4 @@
-# This project is retired, archived, and no longer supported. You are welcome to continue to use and fork the repository.
+[![Build Status](https://dev.azure.com/MohamedFoued0110/TestProject/_apis/build/status/Foued-Frontwell.ContosoAir?branchName=master)](https://dev.azure.com/MohamedFoued0110/TestProject/_build/latest?definitionId=6&branchName=master)
 
 
 # Microsoft.Github CI Demo
