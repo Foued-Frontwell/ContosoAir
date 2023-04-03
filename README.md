@@ -1,4 +1,4 @@
-[![Build Status](https://dev.azure.com/MohamedFoued0110/TestProject/_apis/build/status/Foued-Frontwell.ContosoAir?branchName=master)](https://dev.azure.com/MohamedFoued0110/TestProject/_build/latest?definitionId=7&branchName=master)
+[![Build Status](https://dev.azure.com/MohamedFoued0110/TestProject/_apis/build/status/Foued-Frontwell.ContosoAir?branchName=master)](https://dev.azure.com/MohamedFoued0110/TestProject/_apis/build/status/Foued-Frontwell.ContosoAir?branchName=master)
 
 
 # Microsoft.Github CI Demo
