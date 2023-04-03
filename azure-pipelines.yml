@@ -1,13 +1,14 @@
+---
 pool:
   vmImage: ubuntu-16.04
 trigger:
   - master
 steps:
   - task: CopyFiles@2
-    displayName: 'Copy Files to: $(build.artifactstagingdirectory)/Templates'
+    displayName: "Copy Files to: $(build.artifactstagingdirectory)/Templates"
     inputs:
       SourceFolder: deployment
-      Contents: '*.json'
+      Contents: "*.json"
       TargetFolder: $(build.artifactstagingdirectory)/Templates
   - task: Npm@1
     displayName: npm custom
@@ -21,4 +22,4 @@ steps:
       rootFolderOrFile: $(Build.SourcesDirectory)
       includeRootFolder: false
   - task: PublishBuildArtifacts@1
-    displayName: 'Publish Artifact: drop'
+    displayName: "Publish Artifact: drop"
